@@ -21,4 +21,3 @@ result
 
 biplot(result) # 빨간색 선이 원데이터의 축
 screeplot(result,npcs=4,type="lines",main="Score")
-
