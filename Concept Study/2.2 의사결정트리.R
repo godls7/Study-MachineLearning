@@ -20,5 +20,5 @@ rpart.plot(t1)
 
 fancyRpartPlot(t1)
 
-# 살읶에 비해 강갂비율이 높은 주가 읶구 맋음 
+# 살읶에 비해 강갂비율이 높은 주가 인구 많음 
 plot(USArrests$Rape, USArrests$Murder, col=ifelse(USArrests$UrbanPop>median(USArrests$UrbanPop), "blue", "lightblue"),pch=19)
